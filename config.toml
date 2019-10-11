@@ -4,7 +4,7 @@ title = "SecLab"
 
 
 [permalinks]
-  blog = "/:filename/"
+  blog = "/blog/:filename/"
 
 # See https://feathericons.com/
 # The value of pre is the icon name
@@ -15,15 +15,25 @@ title = "SecLab"
     url = "/"
     weight = 1
   [[menu.main]]
+    name = "Sponsors"
+    pre = "edit"
+    url = "/sponsors/"
+    weight = 2
+  [[menu.main]]
+    name = "Publications"
+    pre = "edit"
+    url = "/publications/"
+    weight = 3
+  [[menu.sub]]
     name = "Blog"
     pre = "edit"
     url = "/blog/"
-    weight = 2
-  [[menu.main]]
+    weight = 5
+  [[menu.sub]]
     name = "Tags"
     pre = "tag"
     url = "/tags/"
-    weight = 3
+    weight = 4
 
 [params]
-  homeText = "Something interesting will go here"
+  homeText = "The Computer Security Group at UCSB works on tools and techniques for designing, building, and validating secure software systems. The group's research focus is on intrusion detection and correlation, vulnerability analysis, malware detection and containment, and security of web-based applications."
