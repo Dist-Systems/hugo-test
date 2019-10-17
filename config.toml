@@ -24,6 +24,11 @@ title = "SecLab"
     pre = "edit"
     url = "/publications/"
     weight = 3
+  [[menu.main]]
+    name = "People"
+    pre = "edit"
+    url = "/people/"
+    weight = 3
   [[menu.sub]]
     name = "Blog"
     pre = "edit"
