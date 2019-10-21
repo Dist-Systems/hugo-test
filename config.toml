@@ -10,11 +10,6 @@ title = "SecLab"
 # The value of pre is the icon name
 [menu]
   [[menu.main]]
-    name = "Home"
-    pre = "home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
     name = "Sponsors"
     pre = "edit"
     url = "/sponsors/"
