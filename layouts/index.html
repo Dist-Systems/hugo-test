@@ -1,23 +1,42 @@
 {{ define "main" }}
 
-  <div class="container">
         <div id="home-jumbotron" class="jumbotron text-center">
           <h1>{{ .Title }}</h1>
           <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
         </div>
-	  <div class="prepend-1 span-7 colborder">
-    <h2>Malware Analysis and Detection</h2>
-    <p>Our research focuses on determining how malware can be analyzed, detected, and blocked. Malware is a very generic term that encompasses different types of malicious software components. </p>
-  </div>
+  <div class="container">
+    <div class="row">
+    <div class="col-md-4">
+      <h2>Malware Analysis and Detection</h2>
+      <p>Our research focuses on determining how malware can be analyzed, detected, and blocked. Malware is a very generic term that encompasses different types of malicious software components. </p>
+    </div>
 
-  <div class=" span-7 colborder">
-    <h2>Web Security</h2>
-    <p>Our research focuses on identifying security vulnerabilities in web applications before they are deployed, using both static and dynamic analysis techniques.</p>
-  </div>
+    <div class="col-md-4">
+      <h2>Web Security</h2>
+      <p>Our research focuses on identifying security vulnerabilities in web applications before they are deployed, using both static and dynamic analysis techniques.</p>
+    </div>
 
-  <div class=" span-7 last">
-    <h2>Cyber Situation Awareness</h2>
-    <p>Cyber networks have evolved into a ubiquitous infrastructure, and the Internet has become a mission-critical asset for the DoD and its partners. To assure the availability of these large-scale networks ... </p>
+    <div class="col-md-4">
+      <h2>Cyber Situation Awareness</h2>
+      <p>Cyber networks have evolved into a ubiquitous infrastructure, and the Internet has become a mission-critical asset for the DoD and its partners. To assure the availability of these large-scale networks ... </p>
+    </div>
   </div>
   </div>
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <a class="navbar-brand" href="#">F</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 {{ end }}
