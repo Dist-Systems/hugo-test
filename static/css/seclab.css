@@ -1,0 +1,6 @@
+.jumbotron{
+    color:white;
+    background-image: url('/img/blackboard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
