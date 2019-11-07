@@ -2,9 +2,11 @@
 
 <h1>{{ .Title }}</h1>
 {{ range .Pages.ByPublishDate }}
-<p>
+  <div>
+    <a href="{{ .RelPermalink }}">
     {{ .Title }}
     {{ .Content }}
-</p>
+    </a>
+  </div>
 {{ end }}
 {{ end }}
