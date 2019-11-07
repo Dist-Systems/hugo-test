@@ -3,9 +3,14 @@
 <h1>{{ .Title }}</h1>
 {{ range .Pages.ByPublishDate }}
   <div>
+    {{ if .Params.featured_image }}
+    {{ with .Resources.GetMatch (.Params.featured_image) }}
+	{{ $image := .Resize "150x" }}
+        <img src="{{ $image.Permalink }}" alt="no image">
+    {{ end }}
+    {{ end }}
+    <div>{{ .Title }}</div>
     <a href="{{ .RelPermalink }}">
-    {{ .Title }}
-    {{ .Content }}
     </a>
   </div>
 {{ end }}
