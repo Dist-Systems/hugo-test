@@ -4,3 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.circular-square {
+  height:150px;
+  width: 150px;
+  border-radius: 50%;
+}
