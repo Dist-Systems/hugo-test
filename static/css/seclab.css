@@ -10,3 +10,13 @@
   width: 150px;
   border-radius: 50%;
 }
+
+.navbar-brand{
+overflow: hidden;
+height: 130px;
+margin-top: -70px;
+}
+
+.bg-light{
+ background-color: #cc2d06 !important;
+}
