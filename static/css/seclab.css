@@ -13,10 +13,9 @@
 
 .navbar-brand{
 overflow: hidden;
-height: 130px;
-margin-top: -70px;
+height: 100px;
 }
 
 .bg-light{
- background-color: #cc2d06 !important;
+ background-color: #06a0cc !important;
 }
