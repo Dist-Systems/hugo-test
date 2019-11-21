@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+ {{ range .Pages.ByPublishDate }}
+<h3>{{ .Title }}</h3>
+<em>{{ .Params.authors }}</em>
+  {{ if .Params.PDF }}
+   <a href="#">{{ .Params.PDF }}</a>
+  {{ end }}
+ {{ end }}
+{{ end }}
