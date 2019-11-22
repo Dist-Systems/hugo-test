@@ -8,12 +8,12 @@
   <div class="col">
     {{ if .Params.featured_image }}
       {{ with .Resources.GetMatch (.Params.featured_image) }}
-        {{ $image := .Resize "150x" }}
-        {{ $image := $image.Filter (images.GaussianBlur 8) (images.Pixelate 13) (images.Grayscale)}}
-        <img class="circular-square" src="{{ $image.Permalink }}" alt="no image">
+        {{ $image := .Fill "600x600" }}
+        {{ $image := $image.Filter (images.GaussianBlur 38) (images.Grayscale)}}
+        <img class="rounded-circle img-thumbnail" src="{{ $image.Permalink }}" alt="no image">
       {{ end }}
     {{ else }}
-        <img class="circular-square" src="/img/profile.png" alt='img' />
+        <img class="rounded-circle img-thumbnail" src="/img/profile.png" alt='img' />
     {{ end }}
     <div>
       {{ .Title }}
