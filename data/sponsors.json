@@ -1,0 +1,21 @@
+{
+	"ARL": {
+		"name": "Army Research Laboratory",
+		"short": "ARL",
+		"url": "http://www.arl.army.mil/"
+	},
+	"ARO": {
+		"name": "Army Research Office",
+		"short": "ARO"
+	},
+	"DARPA": {
+		"name": "Defense Advanced Research Projects Agency",
+		"short":"DARPA",
+		"url":"http://www.darpa.mil/"
+	},
+	"INF": {
+		"name": "Infineon Technologies",
+		"short": "Infineon Technologies",
+		"url": "http://www.infineon.com/"
+	}
+}
