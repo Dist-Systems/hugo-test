@@ -5,7 +5,7 @@
   <div>
       <h5>
       {{ if .url }}
-      <a href="{{ .url }}" title="{{ .full_name }}">{{ .name }} </a>
+      <a href="{{ .url }}" target="_blank" rel="noopener" title="{{ .full_name }}">{{ .name }} </a>
       {{ else }}
         {{ .name }}
       {{ end }}
