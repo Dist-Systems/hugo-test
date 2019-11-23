@@ -5,9 +5,9 @@
   <div>
       <h5>
       {{ if .url }}
-      <a href="{{ .url }}" title="{{ .name }}">{{ .short }} </a>
+      <a href="{{ .url }}" title="{{ .full_name }}">{{ .name }} </a>
       {{ else }}
-        {{ .short }}
+        {{ .name }}
       {{ end }}
       </h5>
   </div>
