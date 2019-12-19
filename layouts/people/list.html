@@ -1,0 +1,31 @@
+{{ define "content" }}
+
+<h1>{{ .Title }}</h1>
+<div class="container">
+  <div class="row members">
+  {{ range $elem_index, $elem_val :=.Pages.ByPublishDate }}
+
+  <div class="col">
+    {{ if .Params.featured_image }}
+      {{ with .Resources.GetMatch (.Params.featured_image) }}
+        {{ $image := .Fill "300x300" }}
+        {{ $image := $image.Filter (images.GaussianBlur 38) (images.Grayscale)}}
+        <img class="rounded-circle img-thumbnail" src="{{ $image.Permalink }}" alt="no image">
+      {{ end }}
+    {{ else }}
+        <img class="rounded-circle img-thumbnail" src="/img/profile.png" alt='img' />
+    {{ end }}
+    <div>
+      {{ .Title }}
+  {{ if mod (add 1 $elem_index) 3}}
+    <!-- here -->
+  {{ else }}
+    <strong>last</strong>
+  {{ end }}
+    </div>
+    {{/* <a href="{{ .RelPermalink }}">.</a> */}}
+  </div>
+
+
+  {{ end }}
+{{ end }} 

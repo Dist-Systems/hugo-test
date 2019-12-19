@@ -1,0 +1,59 @@
+{
+	"ARL": {
+		"full_name": "Army Research Laboratory",
+		"name": "ARL",
+		"url": "http://www.arl.army.mil/"
+	},
+	"ARO": {
+		"full_name": "Army Research Office",
+		"name": "ARO"
+	},
+	"DARPA": {
+		"full_name": "Defense Advanced Research Projects Agency",
+		"name":"DARPA",
+		"url":"http://www.darpa.mil/"
+	},
+	"INF": {
+		"full_name": "Infineon Technologies",
+		"name": "Infineon Technologies",
+		"url": "http://www.infineon.com/"
+	},
+	"Mondex": {
+		"name": "Mondex",
+		"url": "http://www.mondex.com"
+	},
+	"NSF": {
+		"full_name": "National Scince Foundation",
+		"name": "NSF", 
+		"url": "http://www.nsf.gov"
+	},
+	"NSA": {
+    		"full_name": "National Security Agency",
+		"name": "NSA", 
+		"url": "http://www.nsa.gov/"
+	},
+	"Pulsepoint": {
+		"name": "Pulsepoint",
+    		"url": "http://www.ptpt.com"
+	},
+	"Siemens": {
+		"name": "Siemens",
+    		"url": "http://www.siemens.com"
+	},
+	"Sun": {
+		"name": "Sun Microsystems",
+		"url": "http://www.sun.com"
+	},
+	"UniSys": {
+		"name": "UniSys",
+		"url": "http://www.unisys.com"
+	},
+        "VMware": {
+	       "name": "VMware",
+	       "url": "http://www.vmware.com"
+	},
+	"Xerox": {
+		"name": "Xerox",
+		"url": "http://www.xerox.com"
+	}
+}

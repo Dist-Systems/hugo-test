@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="container">
+{{ range .Site.Data.sponsors }}
+  <div>
+      <h5>
+      {{ if .url }}
+      <a href="{{ .url }}" target="_blank" rel="noopener" title="{{ .full_name }}">{{ .name }} </a>
+      {{ else }}
+        {{ .name }}
+      {{ end }}
+      </h5>
+  </div>
+{{ end }}
+</div>
+{{ end }}
