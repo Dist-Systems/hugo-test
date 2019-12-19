@@ -1,2 +1,6 @@
+#hugo 
 resources
-public
+/public
+
+# custom
+/content/publications

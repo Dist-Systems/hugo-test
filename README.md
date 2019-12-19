@@ -1,9 +1,31 @@
-# seclab
-Hugo website for seclab
+# TODO
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ec46f5f5-9c32-4526-95c6-680cc1e70226/deploy-status)](https://app.netlify.com/sites/seclab/deploys)
+* Docker image that includes Python virtualenv and Hugo
+* Use CI to rebuild on push (.gitlab-ci.yml)
+* Hugo static executable
+* minify static executable?
 
-**Pre-requisite**: learn about Hugo's directory strucute before you get started
+# Example Publication BibTeX Entry
 
-This site was built with:
-```Hugo Static Site Generator v0.59.1/extended linux/amd64 BuildDate: 2019-10-31T21:22:09Z```
+    @InProceedings{ecs2000-system,
+        # bibtex required
+        title     = {{System: The Title of the Paper}},                         (important: title case)
+        author    = {Lastname, Firstname and Second Lastname, Second Firstname},
+        booktitle = {Proceedings of the 21st Example Conference on Security},
+        series    = {ECS},
+        month     = aug,
+        year      = {2000},
+
+        # bibtex optional
+        abstract  = {},                                                         (defaults to empty)
+
+        # custom required
+        kind      = {conference/journal/magazine},                              (used to split on website)
+        timestamp = {2000-08-01},                                               (day of publication)
+
+        # custom optional
+        paper     = {yes/no},                                                   (creates paper link, defaults to no)
+        slides    = {yes/no},                                                   (creates slides link, defaults to no)
+        url       = {},                                                         (creates link to publisher, defaults to none)
+        video_url = {},                                                         (creates link to video, defaults to none)
+    }

@@ -1,14 +1,14 @@
-{{ define "main" }}
+{{ define "content" }}
 
 <h1>{{ .Title }}</h1>
 <div class="container">
-  <div class="row">
+  <div class="row members">
   {{ range $elem_index, $elem_val :=.Pages.ByPublishDate }}
 
   <div class="col">
     {{ if .Params.featured_image }}
       {{ with .Resources.GetMatch (.Params.featured_image) }}
-        {{ $image := .Fill "600x600" }}
+        {{ $image := .Fill "300x300" }}
         {{ $image := $image.Filter (images.GaussianBlur 38) (images.Grayscale)}}
         <img class="rounded-circle img-thumbnail" src="{{ $image.Permalink }}" alt="no image">
       {{ end }}

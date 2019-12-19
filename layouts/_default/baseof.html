@@ -3,11 +3,34 @@
   {{ partial "head.html" . }}
   <body>
     {{ partial "nav.html" . }}
-    <div class="container">
-      <main id="main">
-       {{ block "main" . }}{{ end }}
-      </main>
+    {{ if and .IsHome .Params.sliderEnabled }}
+    {{- $path := .Params.slider -}}
+    <div id="home-slider" class="visible-md visible-lg swiper-container">
+      <div class="swiper-wrapper">
+        {{- range readDir (print "content/" $path) -}}
+        <div class="swiper-slide">
+          <img src="{{ $path }}{{ .Name | relURL }}" />
+        </div>
+        {{- end -}}
+      </div>
     </div>
-    {{ partial "script.html" . }}
+    {{ end }}
+
+    <div id="body" class="container">
+      <div class="row{{ if .Params.class }} {{ .Params.class }}{{ end }}">
+        {{ block "content" . }}{{ end }}
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-center">{{ now.Format "2006" }} SecLab - University of California Santa Barbara</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="/js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/js/swiper.jquery.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/js/main.js" charset="utf-8"></script>
   </body>
 </html>
