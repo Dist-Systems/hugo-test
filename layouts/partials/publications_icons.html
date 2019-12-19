@@ -1,0 +1,30 @@
+{{ if .Params.paper }}
+<a class="btn btn-default btn-xs" href="/files/publications/{{ .Slug }}.pdf" title="Download paper" alt="Download paper">
+  <i aria-hidden class="fa fa-download"></i>
+  Download Paper
+</a>
+{{ end }}
+{{ if .Params.external_url }}
+<a class="btn btn-default btn-xs" href="{{ .Params.external_url }}" title="Link to paper" alt="Link to paper">
+  <i aria-hidden class="fa fa-download"></i>
+  Link to Paper
+</a>
+{{ end }}
+{{ if .Params.text }}
+<a class="btn btn-default btn-xs" href="/files/txt/{{ .Slug }}.txt" title="Download plaintext" alt="Download plaintext">
+  <i aria-hidden class="fa fa-download"></i>
+  Download Text
+</a>
+{{ end }}
+{{ if .Params.slides }}
+<a class="btn btn-default btn-xs" href="/files/slides/{{ .Slug }}.pdf" title="Download slides" alt="Download slides">
+  <i aria-hidden class="fa fa-download"></i>
+  Download Slides
+</a>
+{{ end }}
+{{ if .Params.video_url }}
+<a class="btn btn-default btn-xs" href="{{ .Params.video_url }}" title="Link to recorded presentation" alt="Link to recorded presentation">
+  <i aria-hidden class="fa fa-download"></i>
+  Link to Recorded Presentation
+</a>
+{{ end }}
