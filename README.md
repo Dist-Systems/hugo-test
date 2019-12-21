@@ -35,3 +35,8 @@
         url       = {},                                                         (creates link to publisher, defaults to none)
         video_url = {},                                                         (creates link to video, defaults to none)
     }
+
+## Why all the extra files?
+ - pipenv manages requirements and environment
+    - https://realpython.com/pipenv-guide/
+
