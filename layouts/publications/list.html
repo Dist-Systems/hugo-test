@@ -3,33 +3,22 @@
 {{ define "content" }}
 
 <h1 id="publications">Publications</h1>
-<ul class="publications">
 {{ range .Pages.ByDate.Reverse }}
-<li id="publication-{{ .Slug }}">
+<div id="publication-{{ .Slug }}">
   <a href="{{ .Permalink }}" title="{{ .Title }}" class="title">{{ .Title }}</a>
   <br>
-  <span class="authors" title="Authors">
+  <em class="authors" title="Authors">
     {{ range $i, $e := .Params.authors }}{{ if $i }}, {{ end }}<author>{{ $e }}</author>{{ end }}
-  </span>
+  </em>
   <br>
-  <span class="venue">{{ if isset .Params "venue" }}{{ .Params.venue }}, {{ end }}{{ if isset .Params "date" }}<date>{{ .Date.Format "January 2006" }}</date>{{ end }}{{ if isset .Params "publishnote" }} ({{ .Params.publishnote }}){{ end }}
-  </span>
+  <small class="venue">
+	  {{ if isset .Params "venue" }}{{ .Params.venue }}, {{ end }}
+	  {{ if isset .Params "date" }}<date>{{ .Date.Format "January 2006" }}</date>{{ end }}
+	  {{ if isset .Params "publishnote" }} ({{ .Params.publishnote }}){{ end }}
+  </small>
   {{ if or .Params.paper .Params.external_url .Params.text .Params.slides .Params.video_url (isset .Params "bibtex") }}
-  <div class="icons">
-    {{ partial "publications_icons.html" . }}
-    {{ if isset .Params "bibtex" }}
-    <a class="btn btn-default btn-xs" data-target="#bibtex-{{ .Slug }}" data-toggle="collapse" title="Show BibTeX" alt="Show BibTeX">
-      <i aria-hidden class="fa fa-book"></i>
-      BibTeX
-    </a>
-    <div class="collapse" id="bibtex-{{ .Slug }}">
-      <pre id="bibtex-{{ .Slug }}">{{ .Params.bibtex }}</pre>
-    </div>
-    {{ end }}
-  </div>
   {{ end }}
-</li>
+</div>
 {{ end }}
-</ul>
 
 {{ end }}
