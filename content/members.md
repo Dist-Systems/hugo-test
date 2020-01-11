@@ -2,7 +2,6 @@
 title: "People"
 date: 2000-01-01
 class: "members"
-markup: mmark
 ---
 
 # Members

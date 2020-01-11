@@ -4,7 +4,6 @@ title: "{{ title }}"
 slug: "{{ ID }}"
 {% if timestamp is defined %}date: "{{ timestamp }}"{% endif %}
 publishdate: "2000-01-01"
-markup: mmark
 
 {% if author is sequence %}authors:
 {% for a in author %}  - "{{ a.firstname }} {{ a.lastname }}"
