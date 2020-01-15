@@ -119,6 +119,9 @@ def raw_cleaned_bibtex(entry):
 
 
 def main():
+    print("\n\n")
+    count = 1
+
     publications = sys.argv[1]
     bib_filename = sys.argv[2]
     template_filename = sys.argv[3]
@@ -160,8 +163,11 @@ def main():
             del entry['link']
 
         with open("{}/{}.md".format(out_directory, key), 'w') as f:
+            print(count,entry['title'])
             f.write(template.render(entry))
+            count+=1
 
+    print("\n\n")
 
 if __name__ == "__main__":
     main()
