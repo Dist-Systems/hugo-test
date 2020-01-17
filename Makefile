@@ -5,7 +5,7 @@ OUTPUTDIR = $(CURDIR)/public
 CONFFILE = $(BASEDIR)/pelicanconf.py
 TOOLS ?= $(CURDIR)/tools
 
-all: publications generate
+all: publications people generate
 
 generate:
 	hugo --minify
@@ -24,12 +24,13 @@ clean-publications:
 	rm -rf $(PUBLICATIONSDIR)
 
 people: clean-people
-	pipenv run python $(TOOLS)/make-people.py \
-		lab-members.json \
+	pipenv run python $(TOOLS)/make_people.py \
+		$(TOOLS)/lab_members.csv \
+		$(TOOLS)/person_template.j2 \
 		$(PEOPLEDIR)
 
 clean-people:
-	[! -d $(PEOPLEDIR) ] || find $(PEOPLEDIR) -mindepth 2 -delete
+	[ ! -d $(PEOPLEDIR) ] || find $(PEOPLEDIR) -mindepth 1 -delete
 	rm -rf $(PEOPLEDIR)
 
 clean: clean-publications \
