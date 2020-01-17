@@ -1,7 +1,6 @@
 
 # Active development
- - This is where the code should live: https://github.com/ucsb-seclab/seclab-website
- - Here is some reading: https://git.seclab.cs.ucsb.edu/help/user/packages/container_registry/index
+ - This is where the code should live seclab grou on **github**
 
 ## Example Publication BibTeX Entry
 
