@@ -1,15 +1,7 @@
 
 # Active development
- - This is where the code should live: https://git.seclab.cs.ucsb.edu/seclab/website
+ - This is where the code should live: https://github.com/ucsb-seclab/seclab-website
  - Here is some reading: https://git.seclab.cs.ucsb.edu/help/user/packages/container_registry/index
-
-## TODO
-
-* Docker image that includes Python virtualenv and Hugo
-  * Check out the example: https://git.seclab.cs.ucsb.edu/iseclab/iseclab.pages.seclab.cs.ucsb.edu/container_registry
-* Use CI to rebuild on push (.gitlab-ci.yml)
-* Hugo static executable
-* minify static executable?
 
 ## Example Publication BibTeX Entry
 
