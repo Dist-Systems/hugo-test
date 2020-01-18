@@ -2,7 +2,6 @@
 
 {{ define "content" }}
 
-<h1 id="publications">Publications</h1>
 {{ range .Pages.ByDate.Reverse }}
 <div id="publication-{{ .Slug }}">
   <a href="{{ .Permalink }}" title="{{ .Title }}" class="title">{{ .Title }}</a>

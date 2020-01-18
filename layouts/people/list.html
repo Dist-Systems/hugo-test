@@ -1,6 +1,5 @@
 {{ define "content" }}
 
-<h1>{{ .Title }}</h1>
 
   {{ range $elem_index, $elem_val :=.Pages.ByPublishDate }}
 
@@ -8,14 +7,17 @@
     {{ if .Params.featured_image }}
       {{ with .Resources.GetMatch (.Params.featured_image) }}
         {{ $image := .Fill "200x200" }}
-        {{ $image := $image.Filter (images.GaussianBlur 38) (images.Grayscale)}}
+        {{ $image := $image.Filter (images.GaussianBlur 8) (images.Grayscale)}}
         <img class="rounded-circle img-thumbnail" src="{{ $image.Permalink }}" alt="no image">
       {{ else }}
         <img class="rounded-circle img-thumbnail" src="/img/alias.png" alt='img' width=220 height=220/>
       {{ end }}
     {{ end }}
-    <div class="caption"> {{ .Title }}</div>
-    {{/* <a href="{{ .RelPermalink }}">{{ .Title }}</a> */}}
+    <div class="caption">
+      {{ .Title }}
+      <em>{{ .Params.featured_image }}</em>
+    </div>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </div><!-- end col --->
 
 
