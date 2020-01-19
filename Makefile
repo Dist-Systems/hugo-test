@@ -25,7 +25,7 @@ clean-publications:
 
 people: clean-people
 	pipenv run python $(TOOLS)/make_people.py \
-		$(TOOLS)/lab_members.csv \
+		$(TOOLS)/clean_lab.csv \
 		$(TOOLS)/person_template.j2 \
 		$(PEOPLEDIR)
 
