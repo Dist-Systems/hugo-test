@@ -68,4 +68,4 @@ if __name__ == "__main__":
     template_fn = os.path.normpath(sys.argv[2])
     out_dir = os.path.normpath(sys.argv[3])
     archive_dir = "/home/ncs/Projects/seclab-website/tools/people_photos/"
-    main(ppl_file, template_fn, out_dir, archive_dir)
+    main(pepl_file, template_fn, out_dir, archive_dir)
