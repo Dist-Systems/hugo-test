@@ -24,40 +24,49 @@
 	},
 	"Mondex": {
 		"name": "Mondex",
-		"url": "http://www.mondex.com"
+		"url": "http://www.mondex.com",
+		"logo": "mondex.png"
 	},
 	"NSF": {
 		"full_name": "National Scince Foundation",
 		"name": "NSF", 
-		"url": "http://www.nsf.gov"
+		"url": "http://www.nsf.gov",
+		"logo": "nsf.jpeg"
 	},
 	"NSA": {
     		"full_name": "National Security Agency",
 		"name": "NSA", 
-		"url": "http://www.nsa.gov/"
+		"url": "http://www.nsa.gov/",
+		"logo": "nsa.png"
 	},
 	"Pulsepoint": {
 		"name": "Pulsepoint",
-    		"url": "http://www.ptpt.com"
+		"url": "http://www.ptpt.com",
+		"logo": "pulsepoint.jpeg"
 	},
 	"Siemens": {
 		"name": "Siemens",
-    		"url": "http://www.siemens.com"
+		"url": "http://www.siemens.com",
+		"logo": "siemens.jpeg"
 	},
 	"Sun": {
 		"name": "Sun Microsystems",
-		"url": "http://www.sun.com"
+		"url": "http://www.sun.com",
+		"logo": "sun.png"
 	},
 	"UniSys": {
 		"name": "UniSys",
-		"url": "http://www.unisys.com"
+		"url": "http://www.unisys.com",
+		"logo": "unisys.jpeg"
 	},
-        "VMware": {
-	       "name": "VMware",
-	       "url": "http://www.vmware.com"
+    "VMware": {
+	    "name": "VMware",
+		"url": "http://www.vmware.com",
+		"logo": "vmware.jpeg"
 	},
 	"Xerox": {
 		"name": "Xerox",
-		"url": "http://www.xerox.com"
+		"url": "http://www.xerox.com",
+		"logo":"xerox.jpeg"
 	}
 }
