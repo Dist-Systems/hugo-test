@@ -23,7 +23,7 @@ __version__ = "0.0.0"
 #     return(headers,new_rows)
 
 
-def main(ppl_file, template_filename, out_directory, archive_location="/home/ncs/Projects/seclab-website/tools/people_photos/"):
+def main(ppl_file, template_filename, out_directory, archive_location):
 
     with open(template_filename, "r") as template_file:
         template = jinja2.Template(template_file.read())
@@ -44,7 +44,7 @@ def main(ppl_file, template_filename, out_directory, archive_location="/home/ncs
 
             # Find photo
             file_name = record["picture"]
-            print("file_path:", file_name)
+            print("\tfile_path:", file_name)
             if isinstance(file_name, str):
                 files_to_display = [name for name in os.listdir(archive_location)]
                 if file_name in files_to_display:
@@ -54,18 +54,15 @@ def main(ppl_file, template_filename, out_directory, archive_location="/home/ncs
                     )
                 else:
                     record["picture"] = float("NaN")
-                    print("\t\tNOT found")
+                    print("\tNOT found")
 
             with open("{}/{}.md".format(person_directory, "index"), "w+") as f:
                 f.write(template.render(record))
                 print("\t", index, record["first_name"], record["last_name"])
 
-    print("\n\n")
-
-
 if __name__ == "__main__":
     pepl_file = sys.argv[1]
     template_fn = os.path.normpath(sys.argv[2])
     out_dir = os.path.normpath(sys.argv[3])
-    archive_dir = "/home/ncs/Projects/seclab-website/tools/people_photos/"
+    archive_dir = "/home/ncs/Projects/seclab-website/tools/headshots/"
     main(pepl_file, template_fn, out_dir, archive_dir)
