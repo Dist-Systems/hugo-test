@@ -8,8 +8,12 @@ bibtexparser = {git = "https://github.com/sciunto-org/python-bibtexparser.git"}
 "jinja2" = "*"
 ipython = "*"
 awscli = "*"
+pandas = "*"
 
 [dev-packages]
+flake8 = "*"
+pandas = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.7"

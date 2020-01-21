@@ -1,16 +1,25 @@
 {{ define "content" }}
-<h1>{{ .Title }}</h1>
-<div class="container">
+
 {{ range .Site.Data.sponsors }}
-  <div>
-      <h5>
+  <div class="col-md-3">
+      <a>
+
       {{ if .url }}
-      <a href="{{ .url }}" target="_blank" rel="noopener" title="{{ .full_name }}">{{ .name }} </a>
+      <a href="{{ .url }}" target="_blank" rel="noopener" title="{{ .full_name }}">
+          {{ if .logo }}
+              <img src="/logos/{{ .logo }}" height=125 alt="{{ .full_name }}"></a>
+          {{ else }}
+              {{ .name }}</a>
+          {{ end }}
       {{ else }}
-        {{ .name }}
+          {{ if .logo }}
+              <img src="/logos/{{ .logo }}" height=125 alt="{{ .full_name }}">
+          {{ else }}
+            {{ .name }}
+          {{ end }}
       {{ end }}
       </h5>
   </div>
 {{ end }}
-</div>
+
 {{ end }}

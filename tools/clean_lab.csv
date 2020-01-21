@@ -1,0 +1,178 @@
+picture,first_name,last_name,description,web_page,visitor,e_mail,alumni,public,current,mid_name,rank_id,rank
+kemmhead3.jpeg,Richard,Kemmerer,,http://cs.ucsb.edu/~kemm,0,kemm@cs.ucsb.edu,0,1,1,,1,Faculty
+vigna.png,Giovanni,Vigna,"Giovanni Vigna is a Professor in the Department of Computer Science at the University of California in Santa Barbara. His current research interests include malware analysis, web security, vulnerability assessment, and intrusion detection. He also edited a book on Security and Mobile Agents and authored one on Intrusion Correlation. He has been the Program Chair of the International Symposium on Recent Advances in Intrusion Detection (RAID 2003), of the ISOC Symposium on Network and Distributed Systems Security (NDSS 2009), and of the IEEE Symposium on Security and Privacy (S&P 2010 and 2011). He is known for organizing and running an inter-university Capture The Flag hacking contest, called iCTF, that every year involves dozens of institutions around the world. Giovanni Vigna received his M.S. with honors and Ph.D. from Politecnico di Milano, Italy, in 1994 and 1998, respectively. He is a member of IEEE and ACM.",http://www.cs.ucsb.edu/~vigna,0,vigna@cs.ucsb.edu,0,1,1,,1,Faculty
+chris2.jpg,Christopher,Kruegel,,http://www.cs.ucsb.edu/~chris,0,chris@cs.ucsb.edu,0,1,1,,1,Faculty
+headshot_grayscale.jpg,Andrea,Continella,,https://conand.me/,0,,0,1,1,,4,Post-doctoral Researcher
+dutcher_bw.jpg,Audrey,Dutcher,,http://andrewdutcher.com/,0,,1,1,0,,5,Research Assistant
+,Paul,Grosen,,,0,pcgrosen@cs.ucsb.edu,0,0,1,,5,Research Assistant
+aravind.png,Aravind,Machiry,,https://machiry.github.io/,0,machiry@cs.ucsb.edu,0,1,1,Kumar,6,PhD Student
+nilo.jpg,Nilo,Redini,,http://www.badnack.it/,0,badnack@cs.ucsb.edu,0,1,1,,6,PhD Student
+edg_profile.png,Eric,Gustafson,,http://seclab.cs.ucsb.edu/,0,edg@cs.ucsb.edu,0,1,1,,6,PhD Student
+salls-grayscale.jpg,Chris,Salls,,,0,salls@cs.ucsb.edu,0,1,1,,6,PhD Student
+chad.png,Chad,Spensky,,http://cspensky.info/,0,,0,1,1,,6,PhD Student
+dipanjan.png,Dipanjan,Das,,http://dipanjan.in/,0,dipanjan@umail.ucsb.edu,0,1,1,,6,PhD Student
+hojjat.jpg,Hojjat,Aghakhani,,http://hojjat.me/,0,,0,1,1,,6,PhD Student
+sebastiano-mariani.jpg,Sebastiano,Mariani,,,0,mariani.sebastiano@gmail.com,0,1,1,,6,PhD Student
+,Lukas,Dresel,,,0,lukas.patrick.dresel@gmail.com,0,1,1,,6,PhD Student
+,Priyanka ,Bose,,https://sites.cs.ucsb.edu/~priyanka/,0,priyanka@cs.ucsb.edu,0,1,1,,6,PhD Student
+file.jpg,Dongyu,Meng,,http://mengdy.me/,0,dmeng@ucsb.edu,0,1,1,,6,PhD Student
+fabio_gritti.jpg,Fabio,Gritti,,http://github.com/degrigis,0,degrigis@cs.ucsb.edu,0,1,1,,6,PhD Student
+side.jpg,Noah,Spahn,,,0,,0,1,1,,8,Software Engineer
+engin122.jpg,Engin,Kirda,,,1,,0,1,0,,1,Faculty
+surfer.jpg,Kevin,Almeroth,,,0,,0,0,0,,1,Faculty
+surfer.jpg,Mihai,Christoderescu,,,0,,0,0,0,,1,Faculty
+thorsten_quer_ws.png,Thorsten,Holz,,http://www.iseclab.org/people/tho/,1,tho@iseclab.org,0,1,0,,1,Faculty
+surfer.jpg,Stefano,Zanero,,,0,,0,0,0,,1,Faculty
+surfer.jpg,Antonio,Carzaniga,"Antonio Carzaniga is an associate professor in the Faculty of Informatics at the University of Lugano, Switzerland, which he joined as an assistant professor in 2004. From 2001 to 2007 he was an assistant research professor in the Department of Computer Science at the University of Colorado at Boulder. Antonio Carzaniga received the Laurea degree in electronics engineering from Politecnico di Milano, Italy, in 1994, and the Master degree in information technology from CEFRIEL, Italy, also in 1994. He then received the Ph.D. degree in computer science from Dipartimento di Elettronica e Informazione of Politecnico di Milano in 1999. Prof. Carzaniga was with the Software Engineering Research Laboratory at the Department of Computer Science of the University of Colorado at Boulder, first as a research assistant, from 1996 to 1999, and then as a research associate from 1999 to 2001. He was also a researcher with the Software Engineering Group at CEFRIEL from 1994 to 1995.
+
+Prof. Carzaniga has served on the program committees of a number international conferences and workshops, primarily in the areas of software engineering and distributed event-based systems, including the International Conference on Software Engineering (ICSE), the joint meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE), the ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE), the International Symposium on Software Testing and Analysis (ISSTA), and the ACM International Conference on Distributed Event-Based Systems (DEBS). Prof. Carzaniga has also served as a referee for international journals including ACM Transactions on Software Engineering Methodologies, IEEE Transactions on Software Engineering, ACM Transactions on Computer Systems, ACM Transactions on Autonomous Systems, IEEE Transactions on Dependable and Secure Computing, ACM Transactions on Programming Languages and Systems, IEEE Transactions on Parallel and Distributed Systems, IEEE Transactions on Knowledge and Data Engineering, Software: Practice and Experience, Journal of Automated Software Engineering, Software Process Improvement and Practice, and International Journal on Artificial Intelligence Tools, and for international conferences including the International Conference on Software Engineering (ICSE), the Conference on Human Factors in Computing Systems (CHI), and ACM SIGCOMM.
+
+Prof. Carzaniga has conducted research and published papers in the areas of distributed publish/subscribe systems, advanced communication services, testing and evaluation of distributed systems, software configuration management, code mobility, and software process. Prof. Carzaniga's publications are available on-line here. Prof. Carzaniga is the primary designer and maintainer of the Siena distributed publish/subscribe system.",http://www.inf.usi.ch/carzaniga/index.html,0,antonio.carzaniga@usi.ch,0,0,0,,1,Faculty
+surfer.jpg,Elisabetta ,Di Nitto,,http://home.dei.polimi.it/dinitto/,0,dinitto@elet.polimi.it,0,0,0,,1,Faculty
+surfer.jpg,Elizabeth ,Belding,,http://www.cs.ucsb.edu/~ebelding/Home.html,0,ebelding@cs.ucsb.edu,0,0,0,M. ,1,Faculty
+surfer.jpg,Somesh,Jha,,http://pages.cs.wisc.edu/~jha/,0,jha@cs.wisc.edu,0,0,0,,1,Faculty
+surfer.jpg,Dawn,Song,,http://www.cs.berkeley.edu/~dawnsong/,0,dawnsong@cs.berkeley.edu,0,0,0,,1,Faculty
+surfer.jpg,Cliff ,Wang,,http://www.ece.ncsu.edu/people.php/xwang4,0,cliff.wang@us.army.mil,0,0,0,,1,Faculty
+ghezzi2.jpg,Carlo,Ghezzi,,,1,,0,1,0,,1,Faculty
+klauspeterlohr.jpg,Klaus-Peter,Löhr,,,1,,0,1,0,,1,Faculty
+mandrioli2.jpg,Dino,Mandrioli,,,1,,0,1,0,,1,Faculty
+perluigisanpietro2.jpg,Pierluigi,San Pietro,,,1,,0,1,0,,1,Faculty
+surfer.jpg,Tobias,Hollerer,,http://www.cs.ucsb.edu/~holl,0,holl@cs.ucsb.edu,0,0,0,,1,Faculty
+surfer.jpg,Vern,Paxson,,http://www.eecs.berkeley.edu/Faculty/Homepages/paxson.html,0,vern@eecs.berkeley.edu,0,0,0,,1,Faculty
+surfer.jpg,Jeff,Shamma,,http://www.prism.gatech.edu/~jshamma3/,0,shamma@gatech.edu,0,0,0,S. ,1,Faculty
+surfer.jpg,Joao,Hespanha,,http://www.ece.ucsb.edu/~hespanha,0,hespanha@ece.ucsb.edu,0,0,0,,1,Faculty
+surfer.jpg,Upamanyu,Madhow,,,0,madow@ece.ucsb.edu,0,0,0,,1,Faculty
+surfer.jpg,George,Legrady,,,0,,0,0,0,,1,Faculty
+surfer.jpg,Maria,Prandini,,,0,prandini@elet.polimi.it,0,0,0,,1,Faculty
+surfer.jpg,Maria,DiBenedetto,,,0,mariadomenica.dibenedetto@univaq.it,0,0,0,D.,1,Faculty
+surfer.jpg,Rich,Wolski,,,0,,0,0,0,,1,Faculty
+surfer.jpg,Yan,Chen,,,0,ychen@northwestern.edu,0,0,0,,1,Faculty
+surfer.jpg,Wouter ,Joosen ,,,0,Wouter.Joosen@cs.kuleuven.be,0,0,0,,1,Faculty
+surfer.jpg,Frank,Piessens,,,0,frank.piessens@cs.kuleuven.be,0,0,0,,1,Faculty
+surfer.jpg,Xifeng,Yan,,,0,,0,0,0,,1,Faculty
+sfm2.jpg,Stig,Mjølsnes,,http://www.item.ntnu.no/~sfm/vita.html,1,sfm@item.ntnu.no,0,1,0,Frode,1,Faculty
+,B.S.,Manjunath,,,0,,0,0,0,,1,Faculty
+,Westly ,Weimer,,https://www.cs.virginia.edu/~weimer/,0,weimer@virginia.edu,0,1,0,,1,Faculty
+,Fengwei,Zhang,,http://www.cs.wayne.edu/fengwei/,0,fengwei@wayne.edu,0,1,0,,1,Faculty
+,Ari,Trachtenberg,,,0,,0,1,0,,1,Faculty
+me.jpg,Davide,Balzarotti,"I'm an Assistant Professor at Eurecom Graduate School and Research Center, located in Sophia Antipolis on the French riviera.
+
+My research interests include most aspects of system security and in particular the areas of intrusion detection and prevention, binary and malware analysis, reverse engineering, and web security.
+
+Before joining Eurecom I spent almost two years in Santa Barbara as a postdoctoral researcher in the Department of Computer Science at UCSB, working in the Computer Security Lab with professor Giovanni Vigna and professor Richard Kemmerer. 
+
+I received my PhD in Computer Engineering from Politecnico di Milano in 2006.",http://www.iseclab.org/people/dbalzarotti/,1,davide@iseclab.org,0,1,0,,4,Post-doctoral Researcher
+fredrikval2.jpg,Fredrik,Valeur,,,1,fredrik@fredrikmail.com,0,1,0,,4,Post-doctoral Researcher
+cavallaro.jpg,Lorenzo,Cavallaro,,,1,,0,1,0,,4,Post-doctoral Researcher
+img_7268-2.jpg,Manuel,Egele,,http://www.iseclab.org/people/pizzaman/,1,pizzaman@iseclab.org,0,1,0,,4,Post-doctoral Researcher
+surfer.jpg,Gregoire,Jacob,,,1,gregoire.jacob@gmail.com,0,1,0,,4,Post-doctoral Researcher
+surfer.jpg,Paolo,Milani Comparetti,,,0,,0,0,0,,4,Post-doctoral Researcher
+surfer.jpg,Gilbert,Wondraceck,,,0,,0,0,0,,4,Post-doctoral Researcher
+surfer.jpg,John,O'Donovan,,,0,jod@cs.ucsb.edu,0,0,0,,4,Post-doctoral Researcher
+surfer.jpg,Jason,Marden,,,0,marden@caltech.edu,0,0,0,R.,4,Post-doctoral Researcher
+christophe_seclab_profile.png,Christophe ,Hauser,,http://cs.ucsb.edu/~christophe/,1,christophe@cs.ucsb.edu,0,1,0,,4,Post-doctoral Researcher
+shuang.png,Shuang,Hao,,http://www.cs.ucsb.edu/~shuanghao/,1,shuanghao@cs.ucsb.edu,0,1,0,,4,Post-doctoral Researcher
+mlindorfer.png,Martina,Lindorfer,,http://martina.lindorfer.in/,1,,0,1,0,,4,Post-doctoral Researcher
+shirin--.jpg,Shirin,Nilizadeh,,http://cs.ucsb.edu/~nilizadeh,1,,0,1,0,,4,Post-doctoral Researcher
+seclab_andregregio.png,Andre,Gregio,,,1,argregio@cti.gov.br,0,1,0,,5,Research Assistant
+surfer.jpg,Mihai ,Christodorescu,,http://pages.cs.wisc.edu/~mihai/,0,mihai@cs.wisc.edu,0,0,0,,5,Research Assistant
+albertocoen2.jpg,Alberto,Coen-Porisini,,,1,,0,1,0,,5,Research Assistant
+surfer.jpg,Benjamin,Caillat,,,1,benjamin@cs.ucsb.edu,0,1,0,,5,Research Assistant
+michael_200.jpg,Michael,Weissbacher,,http://iseclab.org/people/mweissbacher,1,mweissbacher@iseclab.org,0,1,0,,5,Research Assistant
+surfer.jpg,Amir,Houmansadr,,,1,ahouman2@uiuc.edu,0,0,0,,5,Research Assistant
+surfer.jpg,Stefano,Benvenuti,,,1,,0,0,0,,5,Research Assistant
+patch.jpg,Patrick,Baxter,,,0,patch@cs.ucsb.edu,1,1,0,,5,Research Assistant
+,Pierre,Payet,,,1,,0,1,0,,5,Research Assistant
+1422556240627_bw.jpg,Jake,Corina,,,0,,1,1,0,,5,Research Assistant
+,Nick,Stephens,,https://seclab.cs.ucsb.edu/,1,stephens@cs.ucsb.edu,0,1,0,Dean,5,Research Assistant
+,John,Grosen,,https://seclab.cs.ucsb.edu/,1,jmg@cs.ucsb.edu,0,1,0,,5,Research Assistant
+,Siji,Feng,,,1,,0,1,0,,5,Research Assistant
+cantiere-001_11_grey.jpg,Francesco,Disperati,,,1,,0,1,0,,5,Research Assistant
+,Alessandro,Puccetti,,,0,,0,0,0,,5,Research Assistant
+gian.jpg,Gianluca,Stringhini,,http://cs.ucsb.edu/~gianluca,0,gianluca@cs.ucsb.edu,1,1,0,,6,PhD Student
+ludo-bw.jpg,Ludovico,Cavedon,,http://cs.ucsb.edu/~cavedon,0,cavedon@cs.ucsb.edu,1,1,0,,6,PhD Student
+bob.jpg,Bob,Gilbert,,http://cs.ucsb.edu/~rgilbert,0,rgilbert@cs.ucsb.edu,1,1,0,,6,PhD Student
+brett.jpg,Brett,Stone-Gross,,http://cs.ucsb.edu/~bstone,0,bstone@cs.ucsb.edu,1,1,0,,6,PhD Student
+wil_headshot_bw.jpg,William,Robertson,"William Robertson is a postdoc working with David Wagner at UC Berkeley.  Previously, he was a research assistant at the UCSB SecLab, where he was advised by Dick Kemmerer and Giovanni Vigna.  His research interests include web security, anomaly detection, malware analysis, trusted computing, and electronic voting security.",http://wilrobertson.com/,0,wkr@eecs.berkeley.edu,1,1,0,,6,PhD Student
+fede.jpg,Federico,Maggi,,http://maggi.cc/,1,fmaggi@elet.polimi.it,0,1,0,,6,PhD Student
+prof.jpg,Alexandros,Kapravelos,,https://kapravelos.com/,0,kapravel@cs.ucsb.edu,1,1,0,,6,PhD Student
+adam_doupe_headshot_9_19_14.jpg,Adam,Doupé,,http://adamdoupe.com/,0,doupe@asu.edu,1,1,0,,6,PhD Student
+cova.jpg,Marco,Cova,"Marco Cova is a Lecturer in Computer Science at the University of Birmingham, UK. He
+completed his Ph.D. in computer security at the University of California, Santa Barbara. His research interests focus on providing defenses against cyber threats, including drive-by-download at- tacks, phishing, and botnets. He is a member of ACM and IEEE.",http://www.cs.bham.ac.uk/~covam/,0,m.cova@cs.bham.ac.uk,1,1,0,,6,PhD Student
+invernizzi.jpg,Luca,Invernizzi,,http://lucainvernizzi.net/,0,invernizzi@cs.ucsb.edu,1,1,0,,6,PhD Student
+bboe.jpg,Bryce,Boe,,http://cs.ucsb.edu/~bboe,1,bboe@cs.ucsb.edu,0,1,0,,6,PhD Student
+seclab.jpg,Ali,Zand,"I'm a second year Ph.D. student in UCSB.
+I finished my B.Sc. in Computer Engineering and M.Sc. in Information Security in Amirkabir University of Technology of Tehran.
+",http://cs.ucsb.edu/~zand,0,zand@cs.ucsb.edu,1,1,0,,6,PhD Student
+yan-bw.jpg,Yan,Shoshitaishvili,,http://www.cs.ucsb.edu/~yans,0,yans@cs.ucsb.edu,1,1,0,,6,PhD Student
+surfer.jpg,Andreas,Moser,,,1,,0,1,0,,6,PhD Student
+surfer.jpg,Martin,Szydlowski,,,1,,0,1,0,,6,PhD Student
+dhilung_kirat_bw.jpg,Dhilung,Kirat,,http://cs.ucsb.edu/~dhilung/,0,dhilung@cs.ucsb.edu,1,1,0,,6,PhD Student
+felmetsger.jpg,Viktoria,Felmetsger,,http://cs.ucsb.edu/~rusvika/,0,rusvika@cs.ucsb.edu,1,1,0,,6,PhD Student
+surfer.jpg,Andrea,Lanzi,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Marco,Balduzzi,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Christian,Platzer,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Guido,Salvaneschi,,,0,,0,0,0,,6,PhD Student
+davide-canali.jpg,Davide,Canali,,http://davidecanali.com/,1,dcanali@iseclab.org,0,1,0,,6,PhD Student
+spjsschl.jpg,Johannes,Schlumberger,,http://wwwcip.cs.fau.de/~spjsschl,0,js@icip.de,1,1,0,,6,PhD Student
+surfer.jpg,Leyla,Bilge,,,0,,0,0,0,,6,PhD Student
+mutz.jpg,Darren,Mutz,,,0,dhm@cs.ucsb.edu,1,1,0,,6,PhD Student
+surfer.jpg,Ulrich,Bayer,,,0,,0,0,0,,6,PhD Student
+jingyuz2.jpg,Jingyu,Zhou,,http://epcc.sjtu.edu.cn/~jzhou/,0,zhou-jy@cs.sjtu.edu.cn,1,1,0,,6,PhD Student
+steveeckman2.jpg,Steve,Eckmann,,,0,,1,1,0,T.,6,PhD Student
+zhedang2.jpg,Zhe,Dang,,,0,,1,1,0,,6,PhD Student
+surfer.jpg,Brynjar,Gretarsson,,,0,brynjar@cs.ucsb.edu,0,0,0,,6,PhD Student
+surfer.jpg,Svetlin,Bostandjiev,,,0,alex@cs.ucsb.edu,0,0,0,,6,PhD Student
+surfer.jpg,Na,Li,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Daniel,Klein,,,0,djklein@ece.ucsb.edu,0,0,0,,6,PhD Student
+surfer.jpg,Angus ,Forbes,,,0,,0,0,0,Graeme,6,PhD Student
+surfer.jpg,Shaunak,Bopardikar,,,0,,0,0,0,D,6,PhD Student
+kommy.jpg,Komminist,Weldemariam,,http://ed.fbk.eu/people/sisai/,1,sisai@fbk.eu,0,1,0,,6,PhD Student
+surfer.jpg,Ryan,Abman,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Christo,Wilson,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Zhichun,Li,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Anup,Goyal,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Gregor,Maier,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Anja,Feldmann,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Matthias,Valentin,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Georgios,Kotsalis,,,0,,0,0,0,,6,PhD Student
+surfer.jpg,Ralf,Hund,,,0,,0,0,0,,6,PhD Student
+yanick2.jpg,Yanick,Fratantonio,,http://cs.ucsb.edu/~yanick,0,yanick@cs.ucsb.edu,1,1,0,,6,PhD Student
+nick.png,Nick,Nikiforakis,,http://www.securitee.org/,1,nick.nikiforakis@cs.kuleuven.be,0,1,0,,6,PhD Student
+antoniobianchi_face.png,Antonio,Bianchi,,http://cs.ucsb.edu/~antoniob,0,antoniob@cs.ucsb.edu,1,1,0,,6,PhD Student
+surfer.jpg,Byungkyu,Kang,,,0,,0,0,0,,6,PhD Student
+kevin2.png,Kevin,Borgolte,,https://kevin.borgolte.me/,0,kevinbo@cs.ucsb.edu,1,1,0,,6,PhD Student
+,Ruoyu,Wang,,http://ruoyuwang.me/,0,,1,1,0,,6,PhD Student
+yinzhicao.jpg,Yinzhi,Cao,,http://www.cs.northwestern.edu/~yca179,1,yinzhicao2013@u.northwestern.edu,0,1,0,,6,PhD Student
+,Lakshmanan,Nataraj,,,0,,0,0,0,,6,PhD Student
+line_mariab.jpg,Maria,Line,,,1,maria.b.line@item.ntnu.no,0,1,0,B.,6,PhD Student
+,Neha,Chachra,,http://cseweb.ucsd.edu/~nchachra/,0,nchachra@cs.ucsd.edu,0,0,0,,6,PhD Student
+,Giancarlo,De Maio,,,1,demaio@dia.unisa.it,0,0,0,,6,PhD Student
+pic_vitor.png,Vitor,Afonso,,http://www.lasca.ic.unicamp.br/~vitor/,1,vitor@lasca.ic.unicamp.br,0,1,0,Monte,6,PhD Student
+,Victor,van der Veen,,,1,,0,1,0,,6,PhD Student
+,Vaibhav,Rastogi,,,0,,0,0,0,,6,PhD Student
+,Zhengyang,Qu,,,0,,0,0,0,,6,PhD Student
+,Jedidiah,McClurg,,,0,,0,0,0,,6,PhD Student
+,Qu,Zhengyang,,,0,,0,0,0,,6,PhD Student
+,Mario,Polino,,,1,,0,1,0,,6,PhD Student
+,Marius,Muench,,,1,,0,1,0,,6,PhD Student
+,Kevin,Leach,,http://kleach.cs.virginia.edu/,0,kjl2y@virginia.edu,0,1,0,,6,PhD Student
+tobias-bw.jpg,Tobias,Fiebig,,http://aperture-labs.org/#about,1,tobias@inet.tu-berlin.de,0,1,0,,6,PhD Student
+,Radhesh Krishnan,Konoth,,,1,,0,1,0,,6,PhD Student
+ford.jpg,Sean,Ford,,http://cs.ucsb.edu/~odo,0,odo@cs.ucsb.edu,1,1,0,,7,Master Student
+surfer.jpg,Greg,Banks,,,0,,1,1,0,,7,Master Student
+surfer.jpg,Nick,Childers,,,0,,1,1,0,,7,Master Student
+gyakin.jpg,Gorkem,Yakin,,http://www.cs.ucsb.edu/~gyakin,0,me@gyakin.com,1,1,0,,7,Master Student
+surfer.jpg,Collin,Mulliner,,http://mulliner.org/collin/academic,0,collin@sec.t-labs.tu-berlin.de,1,0,0,,7,Master Student
+surfer.jpg,Aristide,Fattori,,,1,joystick@cs.ucsb.edu,0,0,0,,7,Master Student
+jacopo.jpg,Jacopo,Corbetta,,http://jacopo.cc/,0,jacopo@cs.ucsb.edu,1,1,0,,7,Master Student
+surfer.jpg,Casey,Cipriano,,,0,ccipriano@gmail.com,0,0,0,,7,Master Student
+surfer.jpg,Steven,Van Acker,,,0,steven.vanacker@cs.kuleuven.be,0,0,0,,7,Master Student
+kyle_seclab.jpg,Kyle,MacNamara,,,0,kyle@cs.ucsb.edu,1,1,0,,7,Master Student
+philporras2.jpg,Phil,Porras,,,0,,1,1,0,,7,Master Student
+,Rick,Housley,,,0,rhousley@stevens.edu,0,1,0,,7,Master Student
+,Hongyi,Hu,,,0,hongyihu@alum.mit.edu,0,1,0,,8,Software Engineer
+,Jeffrey,Stewart,,,0,,0,1,0,,8,Software Engineer
+,Arkady,Yerukhimovich,,,0,,0,1,0,,8,Software Engineer
+,Richard,Shay,,,0,,0,0,0,,8,Software Engineer
+,Robert,Cunningham,,,0,,0,1,0,K,8,Software Engineer

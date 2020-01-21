@@ -2,21 +2,25 @@
 	"ARL": {
 		"full_name": "Army Research Laboratory",
 		"name": "ARL",
-		"url": "http://www.arl.army.mil/"
+		"url": "http://www.arl.army.mil/",
+		"logo": "arl.jpg"
 	},
 	"ARO": {
 		"full_name": "Army Research Office",
-		"name": "ARO"
+		"name": "ARO",
+		"logo": "aro.jpg"
 	},
 	"DARPA": {
 		"full_name": "Defense Advanced Research Projects Agency",
 		"name":"DARPA",
-		"url":"http://www.darpa.mil/"
+		"url":"http://www.darpa.mil/",
+		"logo":"darpa.png"
 	},
 	"INF": {
 		"full_name": "Infineon Technologies",
 		"name": "Infineon Technologies",
-		"url": "http://www.infineon.com/"
+		"url": "http://www.infineon.com/",
+		"logo": "infineon.png"
 	},
 	"Mondex": {
 		"name": "Mondex",
