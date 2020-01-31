@@ -5,8 +5,6 @@ markup: mmark
 class: about
 aliases:
   - /about/
-sliderEnabled: false
-slider: "images/slider/"
 ---
 
 # About
