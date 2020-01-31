@@ -4150,7 +4150,7 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #CA0B15;
+  color: #126b7e;
   text-decoration: none; }
   a:hover, a:focus {
     color: #3e3f3a;
@@ -4221,7 +4221,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: #140000;
   line-height: 1.1;
-  color: #b20a12; }
+  color: #126b7e; }
   h1 small,
   h1 .small, h2 small,
   h2 .small, h3 small,
@@ -5333,7 +5333,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: inherit;
-  color: #b20a12;
+  color: #126b7e;
   border: 0;
   border-bottom: 1px solid transparent; }
 
@@ -7078,7 +7078,7 @@ tbody.collapse.in {
   .navbar-inverse .navbar-text {
     color: #fcfbfa; }
   .navbar-inverse .navbar-nav > li > a {
-    color: #CA0B15; }
+    color: #18aacb; }
     .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
       color: #3e3f3a;
       background-color: transparent; }
@@ -7627,7 +7627,7 @@ button.list-group-item {
   color: #3e3f3a; }
   a.list-group-item .list-group-item-heading,
   button.list-group-item .list-group-item-heading {
-    color: #b20a12; }
+    color: #126b7e; }
   a.list-group-item:hover, a.list-group-item:focus,
   button.list-group-item:hover,
   button.list-group-item:focus {
