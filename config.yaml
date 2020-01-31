@@ -1,0 +1,16 @@
+baseURL: "/"
+canonifyURLs: true
+enableRobotsTXT: true
+enableGitInfo: true
+disableKinds:
+  - RSS
+disableHugoGeneratorInject: true
+metaDataFormat: "yaml"
+publishDir: "public"
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+pygmentsOptions: "linenos=table"
+taxonomies: []
+
+sitemap:
+ changefreq: weekly
