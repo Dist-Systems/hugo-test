@@ -40,6 +40,7 @@ def main(ppl_file, template_filename, out_directory, archive_location):
             key = key.lower()
             person_directory = os.path.normpath(out_directory + "/" + key)
             # Make directory
+            print("making", person_directory)
             os.makedirs(person_directory, mode=0o700, exist_ok=True)
 
             # Find photo
@@ -64,5 +65,5 @@ if __name__ == "__main__":
     pepl_file = sys.argv[1]
     template_fn = os.path.normpath(sys.argv[2])
     out_dir = os.path.normpath(sys.argv[3])
-    archive_dir = "/home/ncs/Projects/seclab-website/tools/headshots/"
+    archive_dir = os.path.normpath(sys.argv[4])
     main(pepl_file, template_fn, out_dir, archive_dir)
