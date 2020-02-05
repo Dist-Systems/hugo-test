@@ -1,7 +1,6 @@
 ---
 title: "Welcome"
 date: 2000-01-01
-markup: mmark
 class: about
 aliases:
   - /about/
