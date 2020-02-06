@@ -1,8 +1,11 @@
+# TODO
 
-# Active development
- - This is where the code should live seclab grou on **github**
+* Docker image that includes Python virtualenv and Hugo
+* Use CI to rebuild on push (.gitlab-ci.yml)
+* Hugo static executable
+* minify static executable?
 
-## Example Publication BibTeX Entry
+# Example Publication BibTeX Entry
 
     @InProceedings{ecs2000-system,
         # bibtex required
@@ -26,8 +29,3 @@
         url       = {},                                                         (creates link to publisher, defaults to none)
         video_url = {},                                                         (creates link to video, defaults to none)
     }
-
-## Why all the extra files?
- - pipenv manages requirements and environment
-    - https://realpython.com/pipenv-guide/
-

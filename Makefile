@@ -1,9 +1,10 @@
 PUBLICATIONSSOURCE = $(CURDIR)/content
 PUBLICATIONSDIR = $(CURDIR)/content/publications
-PEOPLEDIR = $(CURDIR)/content/people
+PEOPLEDIR = $(CURDIR)/content/members
 OUTPUTDIR = $(CURDIR)/public
 CONFFILE = $(BASEDIR)/pelicanconf.py
 TOOLS ?= $(CURDIR)/tools
+ARCHIVEDIR = $(TOOLS)/headshots/
 
 all: publications people generate
 
@@ -27,7 +28,8 @@ people: clean-people
 	pipenv run python $(TOOLS)/make_people.py \
 		$(TOOLS)/clean_lab.csv \
 		$(TOOLS)/person_template.j2 \
-		$(PEOPLEDIR)
+		$(PEOPLEDIR) \
+        $(ARCHIVEDIR)
 
 clean-people:
 	[ ! -d $(PEOPLEDIR) ] || find $(PEOPLEDIR) -mindepth 1 -delete
