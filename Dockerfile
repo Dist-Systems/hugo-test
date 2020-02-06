@@ -19,8 +19,7 @@ RUN apk add --update git asciidoctor libc6-compat libstdc++ \
     && apk upgrade \
     && apk add --no-cache ca-certificates
 VOLUME $(PWD):/src 
-ENV sourcedir /src
-WORKDIR ${sourcedir}
-ADD . $sourcedir
+WORKDIR /src
+ADD . /src
 RUN hugo 
-#RUN hugo server --watch=true --source="./"  --destination="/public" --bind="0.0.0.0" "$@" || exit 1
+CMD hugo server --watch=true --source="./"  --destination="/public" --bind="0.0.0.0" "$@"
