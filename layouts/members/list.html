@@ -12,12 +12,13 @@
         {{ $image := $image.Filter (images.Grayscale)}}
         <img class="rounded-circle img-thumbnail" src="{{ $image.Permalink }}" alt="no image">
       {{ else }}
-        <img class="rounded-circle img-thumbnail" src="/img/alias.png" alt='img' width=220 height=220/>
+        <img class="rounded-circle img-thumbnail" src="/img/alias.png" alt='img' width=200 height=200/>
       {{ end }}
     {{ end }}
     <div class="caption">
       {{ .Title }}
       {{/* <em>{{ .Params.featured_image }}</em> */}}
+      {{ .Params.affiliation }}
     </div>
     {{/* <a href="{{ .RelPermalink }}">{{ .Title }}</a> */}}
     </div><!-- end col --->
