@@ -8,6 +8,7 @@ bibtexparser = "*"
 "jinja2" = "*"
 ipython = "*"
 awscli = "*"
+pandas = "*"
 
 [dev-packages]
 
