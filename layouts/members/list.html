@@ -3,8 +3,10 @@
 {{ define "content" }}
 
 
-  {{ range $elem_index, $elem_val :=.Pages.ByParam "sort_order" }}
-
+  {{ range .Pages.ByParam "sort_order" }}
+    {{ if eq .Params.affiliation "Software Engineer" }}
+    <h2>Super</h2>
+    {{ end }}
     <div class="col-md-3" style="text-align: center;">
     {{ if .Params.featured_image }}
       {{ with .Resources.GetMatch (.Params.featured_image) }}
@@ -17,6 +19,7 @@
     {{ end }}
     <div class="caption">
       {{ .Title }}
+      <br/>
       {{/* <em>{{ .Params.featured_image }}</em> */}}
       {{ .Params.affiliation }}
     </div>
