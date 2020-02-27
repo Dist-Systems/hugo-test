@@ -3,7 +3,7 @@ PUBLICATIONSDIR = $(CURDIR)/content/publications
 PEOPLEDIR = $(CURDIR)/content/members
 OUTPUTDIR = $(CURDIR)/public
 CONFFILE = $(BASEDIR)/pelicanconf.py
-TOOLS = $(CURDIR)/tools
+TOOLS ?= $(CURDIR)/tools
 ARCHIVEDIR = $(TOOLS)/headshots/
 
 all: publications people generate
