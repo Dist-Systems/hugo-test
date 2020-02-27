@@ -1,5 +1,5 @@
 picture,first_name,last_name,description,web_page,visitor,e_mail,alumni,public,current,mid_name,rank_id,rank
-kemmhead3.jpeg,Richard,Kemmerer,,http://cs.ucsb.edu/~kemm,0,kemm@cs.ucsb.edu,0,1,1,,1,Faculty
+kemmhead3.jpeg,Richard,Kemmerer,,http://cs.ucsb.edu/~kemm,0,kemm@cs.ucsb.edu,0,1,1,,9,Emeriti
 vigna.png,Giovanni,Vigna,"Giovanni Vigna is a Professor in the Department of Computer Science at the University of California in Santa Barbara. His current research interests include malware analysis, web security, vulnerability assessment, and intrusion detection. He also edited a book on Security and Mobile Agents and authored one on Intrusion Correlation. He has been the Program Chair of the International Symposium on Recent Advances in Intrusion Detection (RAID 2003), of the ISOC Symposium on Network and Distributed Systems Security (NDSS 2009), and of the IEEE Symposium on Security and Privacy (S&P 2010 and 2011). He is known for organizing and running an inter-university Capture The Flag hacking contest, called iCTF, that every year involves dozens of institutions around the world. Giovanni Vigna received his M.S. with honors and Ph.D. from Politecnico di Milano, Italy, in 1994 and 1998, respectively. He is a member of IEEE and ACM.",http://www.cs.ucsb.edu/~vigna,0,vigna@cs.ucsb.edu,0,1,1,,1,Faculty
 chris2.jpg,Christopher,Kruegel,,http://www.cs.ucsb.edu/~chris,0,chris@cs.ucsb.edu,0,1,1,,1,Faculty
 headshot_grayscale.jpg,Andrea,Continella,,https://conand.me/,0,,0,1,1,,4,Post-doctoral Researcher
@@ -20,7 +20,7 @@ fabio_gritti.jpg,Fabio,Gritti,,http://github.com/degrigis,0,degrigis@cs.ucsb.edu
 side.jpg,Noah,Spahn,,,0,,0,1,1,,8,Software Engineer
 pagani.png,Fabio,Pagani,,,0,,0,1,1,,4,Post-doctoral Researcher
 robert.png,Robert,McLaughlin,,,0,,0,1,1,,6,PhD Student
-burke.png,Kevin,Burke,,,0,,0,1,1,,6,PhD Student
+burke.png,Kevin,Burk,,,0,,0,1,1,,6,PhD Student
 engin122.jpg,Engin,Kirda,,,1,,0,1,0,,1,Faculty
 surfer.jpg,Kevin,Almeroth,,,0,,0,0,0,,1,Faculty
 surfer.jpg,Mihai,Christoderescu,,,0,,0,0,0,,1,Faculty
