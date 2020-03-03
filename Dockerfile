@@ -9,11 +9,7 @@ ENV HUGO_ID=hugo${HUGO_TYPE}_${HUGO_VERSION}
 ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_ID}_Linux-64bit.tar.gz /tmp
 RUN tar -xf /tmp/${HUGO_ID}_Linux-64bit.tar.gz -C /tmp \
     && mkdir -p /usr/local/sbin \
-    && mv /tmp/hugo /usr/local/sbin/hugo \
-    && rm -rf /tmp/${HUGO_ID}_linux_amd64 \
-    && rm -rf /tmp/${HUGO_ID}_Linux-64bit.tar.gz \
-    && rm -rf /tmp/LICENSE.md \
-    && rm -rf /tmp/README.md
+    && mv /tmp/hugo /usr/local/sbin/hugo
 
 RUN apk add --update git asciidoctor libc6-compat libstdc++ \
     && apk upgrade \
@@ -22,4 +18,4 @@ VOLUME $(PWD):/src
 WORKDIR /src
 ADD . /src
 RUN hugo 
-CMD hugo server --watch=true --source="./"  --destination="/public" --bind="0.0.0.0" "$@"
+#CMD hugo server --watch=true --source="./"  --destination="/public" --bind="0.0.0.0" "$@"
