@@ -34,7 +34,7 @@ def main(ppl_file, template_filename, out_directory, archive_location):
     for index, record in df.iterrows():
 
         # Just show the current folks for now
-        if record["public"] and record["current"]:
+        if record["public"]: #and record["current"]:
 
             key = "{}{}".format(record["first_name"][0], record["last_name"])
             key = key.lower()
