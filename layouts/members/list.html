@@ -17,39 +17,67 @@
     <div class="container">
 
     {{- range .Pages.ByParam "affiliation" }}
-    <div class="col-md-3" style="text-align: center;">
-    {{ if .Params.featured_image }}
-      {{ with .Resources.GetMatch (.Params.featured_image) }}
-        {{ $image := .Fill "200x200" }}
-        {{ $image := $image.Filter (images.Grayscale)}}
-        <img src="{{ $image.Permalink }}" alt="no image">
-      {{ else }}
-        <img src="/img/alias.png" alt='img' width=200 height=200/>
-      {{ end }}
-    {{ end }}
-    <div class="caption">
-      {{ .Title }}
-      <br/>
-      {{/* <em>{{ .Params.featured_image }}</em> */}}
-    </div>
-    </div><!-- end col --->
+        {{ if eq .Params.current 1 }}
+        <div class="col-md-3" style="text-align: center;">
+        {{ if .Params.featured_image }}
+          {{ with .Resources.GetMatch (.Params.featured_image) }}
+            {{ $image := .Fill "200x200" }}
+            {{ $image := $image.Filter (images.Grayscale)}}
+            <img src="{{ $image.Permalink }}" alt="no image">
+          {{ else }}
+            <img src="/img/alias.png" alt='img' width=200 height=200/>
+          {{ end }}
+        {{ end }}
+        <div class="caption">
+          {{ .Title }}
+          <br/>
+          {{/* <em>{{ .Params.featured_image }}</em> */}}
+        </div>
+        </div><!-- end col --->
+	{{ end }} 
     {{- end }}
     </div>
   {{- end }}
 
-<hr/>
-  {{ range .Pages.ByParam "sort_order" }}
-    {{ if .Params.featured_image }}
-      {{ with .Resources.GetMatch (.Params.featured_image) }}
-        {{ $image := .Fill "200x200" }}
-        {{ $image := $image.Filter (images.Grayscale)}}
-        <!--<img class="rounded-circle img-thumbnail" src="{{ $image.Permalink }}" alt="no image">-->
-      {{ else }}
-        <!-- <img class="rounded-circle img-thumbnail" src="/img/alias.png" alt='img' width=200 height=200/>-->
-      {{ end }}
+  <!-- Everything  below is from the past -->
+
+  {{- range .Pages.GroupByParam "sort_order" }}
+    {{ if eq .Key "1" }}
+        <h2>Past Faculty</h2>
+    {{ else if eq .Key "8" }}
+        <h2>Software Engineer</h2>
+    {{ else if eq .Key "4" }}
+        <h2>Past Post-doctoral Researchers</h2>
+    {{ else if eq .Key "5" }}
+        <h2>Past Research Assistants</h2>
+    {{ else if eq .Key "6" }}
+        <h2>Alumni PhD</h2>
+    {{ else if eq .Key "7" }}
+        <h2>Alumni Masters Students</h2>
     {{ end }}
-    {{/* <a href="{{ .RelPermalink }}">{{ .Title }}</a> */}}
+    <div class="container">
 
+    {{- range .Pages.ByParam "affiliation" }}
+        {{ if eq .Params.current 0 }}
+        <div class="col-md-3" style="text-align: center;">
+        {{ if .Params.featured_image }}
+          {{ with .Resources.GetMatch (.Params.featured_image) }}
+            {{ $image := .Fill "200x200" }}
+            {{ $image := $image.Filter (images.Grayscale)}}
+            <img src="{{ $image.Permalink }}" alt="no image">
+          {{ else }}
+            <img src="/img/alias.png" alt='img' width=200 height=200/>
+          {{ end }}
+        {{ end }}
+        <div class="caption">
+          {{ .Title }}
+          <br/>
+          {{/* <em>{{ .Params.featured_image }}</em> */}}
+        </div>
+        </div><!-- end col --->
+	{{ end }} 
+    {{- end }}
+    </div>
+  {{- end }}
 
-  {{ end }}
 {{ end }} 
