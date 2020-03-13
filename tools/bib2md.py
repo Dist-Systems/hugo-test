@@ -13,7 +13,7 @@ import bibtexparser.bwriter as bwriter
 import bibtexparser.customization as customization
 import jinja2
 
-__author__ = "Kevin Borgolte <kevin@borgolte.me>"
+__author__ = "Kevin Borgolte <kevin@borgolte.me>, Noah Spahn <ncs@ucsb.edu>"
 __description__ = """BibTeX to Markdown converter"""
 __version__ = "0.0.0"
 
@@ -23,7 +23,7 @@ FIELDS_TO_REMOVE = ['author+an', 'abstract', 'kind', 'keyword', 'timestamp',
                     'link', 'paper', 'slides', 'text', 'publishnote', 'aliases',
                     'video_url', 'urldate']
 FIELD_DEFAULT_NO = ['paper', 'slides', 'text', 'video_url']
-
+LOCAL_PDF_VAULT = 'content/files/publications/'
 
 class Author:
     def __init__(self, firstname, lastname):
@@ -60,6 +60,10 @@ def customize(record):
     def parse_kind(kind, record):
         if kind in record and record[kind]:
             remove_translate_table = str.maketrans('', '', ', .')
+            # record_id determines the name of the PDF
+            # it's been hard-coded in the view:
+            # layouts/partials/publications_icons.html
+            # ----> this might want to be refactored
             record_id = record[kind].translate(remove_translate_table)
             record[kind] = {'name': record[kind],
                             'ID': record_id}
@@ -75,6 +79,22 @@ def customize(record):
 
     for kind in ('booktitle', 'series'):
         record = parse_kind(kind, record)
+
+    def pdf_is_there(record):
+        #print(record["ID"])
+        filename = record["ID"]+".pdf"
+        path_to_file = os.path.join(LOCAL_PDF_VAULT,filename)
+        print(path_to_file)
+        if os.path.isfile(path_to_file):
+            print("\t PDF found!")
+        else:
+            print("\t NO PDF!!!")
+            record["paper"] = "no"
+        return record
+
+    if ("paper" in record.keys() and record["paper"] == "yes"):
+        #print(record)
+        return pdf_is_there(record)
 
     return record
 
@@ -163,7 +183,7 @@ def main():
             del entry['link']
 
         with open("{}/{}.md".format(out_directory, key), 'w') as f:
-            print(count,entry['title'])
+            #print(count,entry['title'])
             f.write(template.render(entry))
             count+=1
 
