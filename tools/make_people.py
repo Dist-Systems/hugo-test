@@ -12,16 +12,6 @@ __author__ = "Noah Spahn <ncs@cs.ucsb.edu>"
 __description__ = """Generates people entries from a data file"""
 __version__ = "0.0.0"
 
-# def read_members(exist):
-#     new_rows = []
-#     with open(exist, 'r') as f:
-#         f_csv = csv.reader(f)
-#         headers = next(f_csv)
-#         for row in f_csv:
-#             row[0] = str(row[0]).split('/')[-1]
-#             new_rows.append(tuple(row))
-#     return(headers,new_rows)
-
 
 def main(ppl_file, template_filename, out_directory, archive_location):
 
@@ -56,6 +46,13 @@ def main(ppl_file, template_filename, out_directory, archive_location):
                 else:
                     record["picture"] = float("NaN")
                     print("\tNOT found")
+
+            if(record["current"]):
+                sort_affiliation = "10" + record["rank"]
+            else:
+                sort_affiliation = "80" + record["rank"]
+
+            record["rank_id"] = sort_affiliation
 
             with open("{}/{}.md".format(person_directory, "index"), "w+") as f:
                 f.write(template.render(record))
