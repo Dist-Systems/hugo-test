@@ -57,8 +57,8 @@ philporras2.jpg,Phil,Porras,,,0,,1,1,0,,6,Master Student
 ,Jason,Berry,,,0,,1,1,0,,6,Master Student
 chani.jpeg,Chani,Jindal,,,0,,1,1,0,,6,Master Student
 ,Keith,Long,,,0,,1,1,0,,6,Master Student
-,John,Grossen,,,0,,1,1,0,,7,Undergrad
-,Paul,Grossen,,,0,,1,1,0,,7,Undergrad
+,John,Grosen,,,0,,1,1,0,,7,Undergrad
+,Paul,Grosen,,,0,,1,1,0,,7,Undergrad
 ,Colin,Unger,,,0,,1,1,1,,7,Undergrad
 ,Audrey,Dutcher,,,0,,1,1,0,,7,Undergrad
 dutcher_bw.jpg,Audrey,Dutcher,,http://andrewdutcher.com/,0,,1,1,0,,5,Research Assistant
@@ -70,7 +70,6 @@ albertocoen2.jpg,Alberto,Coen-Porisini,,,1,,0,1,0,,5,Research Assistant
 michael_200.jpg,Michael,Weissbacher,,http://iseclab.org/people/mweissbacher,1,mweissbacher@iseclab.org,0,1,0,,5,Research Assistant
 ,Pierre,Payet,,,1,,0,1,0,,5,Research Assistant
 ,Nick,Stephens,,https://seclab.cs.ucsb.edu/,1,stephens@cs.ucsb.edu,0,1,0,Dean,5,Research Assistant
-,John,Grosen,,https://seclab.cs.ucsb.edu/,1,jmg@cs.ucsb.edu,0,1,0,,5,Research Assistant
 ,Siji,Feng,,,1,,0,1,0,,5,Research Assistant
 cantiere-001_11_grey.jpg,Francesco,Disperati,,,1,,0,1,0,,5,Research Assistant
 me.jpg,Davide,Balzarotti,"I'm an Assistant Professor at Eurecom Graduate School and Research Center, located in Sophia Antipolis on the French riviera.My research interests include most aspects of system security and in particular the areas of intrusion detection and prevention, binary and malware analysis, reverse engineering, and web security. Before joining Eurecom I spent almost two years in Santa Barbara as a postdoctoral researcher in the Department of Computer Science at UCSB, working in the Computer Security Lab with professor Giovanni Vigna and professor Richard Kemmerer. I received my PhD in Computer Engineering from Politecnico di Milano in 2006.",http://www.iseclab.org/people/dbalzarotti/,1,davide@iseclab.org,0,1,0,,3,Post-doctoral Researcher
