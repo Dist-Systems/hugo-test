@@ -4,7 +4,7 @@ chris2.jpg,Christopher,Kruegel,,http://www.cs.ucsb.edu/~chris,0,chris@cs.ucsb.ed
 headshot_grayscale.jpg,Andrea,Continella,,https://conand.me/,0,,0,1,1,,2,Post-doctoral Researcher
 pagani.png,Fabio,Pagani,,,0,,0,1,1,,2,Post-doctoral Researcher
 kemmhead3.jpeg,Richard,Kemmerer,,http://cs.ucsb.edu/~kemm,0,kemm@cs.ucsb.edu,0,1,1,,9,Emeriti
-aravind_small.png,Aravind,Machiry,,https://machiry.github.io/,0,machiry@cs.ucsb.edu,0,1,1,Kumar,4,PhD Student
+machiry.png,Aravind,Machiry,,https://machiry.github.io/,0,machiry@cs.ucsb.edu,0,1,1,Kumar,4,PhD Student
 nilo.jpg,Nilo,Redini,,http://www.badnack.it/,0,badnack@cs.ucsb.edu,0,1,1,,4,PhD Student
 edg_profile.png,Eric,Gustafson,,http://seclab.cs.ucsb.edu/,0,edg@cs.ucsb.edu,0,1,1,,4,PhD Student
 salls-grayscale.jpg,Chris,Salls,,,0,salls@cs.ucsb.edu,0,1,1,,4,PhD Student
@@ -13,7 +13,7 @@ dipanjan.png,Dipanjan,Das,,http://dipanjan.in/,0,dipanjan@umail.ucsb.edu,0,1,1,,
 hojjat.jpg,Hojjat,Aghakhani,,http://hojjat.me/,0,,0,1,1,,4,PhD Student
 sebastiano-mariani.jpg,Sebastiano,Mariani,,,0,mariani.sebastiano@gmail.com,0,1,1,,4,PhD Student
 ,Lukas,Dresel,,,0,lukas.patrick.dresel@gmail.com,0,1,1,,4,PhD Student
-,Priyanka ,Bose,,https://sites.cs.ucsb.edu/~priyanka/,0,priyanka@cs.ucsb.edu,0,1,1,,4,PhD Student
+priyanka.png,Priyanka ,Bose,,https://sites.cs.ucsb.edu/~priyanka/,0,priyanka@cs.ucsb.edu,0,1,1,,4,PhD Student
 file.jpg,Dongyu,Meng,,http://mengdy.me/,0,dmeng@ucsb.edu,0,1,1,,4,PhD Student
 fabio_gritti.jpg,Fabio,Gritti,,http://github.com/degrigis,0,degrigis@cs.ucsb.edu,0,1,1,,4,PhD Student
 burke.png,Kevin,Burk,,,0,,0,1,1,,4,PhD Student
@@ -26,7 +26,7 @@ prof.jpg,Alexandros,Kapravelos,,https://kapravelos.com/,0,kapravel@cs.ucsb.edu,1
 adam_doupe_headshot_9_19_14.jpg,Adam,Doupé,,http://adamdoupe.com/,0,doupe@asu.edu,1,1,0,,4,Alumni
 cova.jpg,Marco,Cova,"Marco Cova is a Lecturer in Computer Science at the University of Birmingham, UK. He completed his Ph.D. in computer security at the University of California, Santa Barbara. His research interests focus on providing defenses against cyber threats, including drive-by-download at- tacks, phishing, and botnets. He is a member of ACM and IEEE.",http://www.cs.bham.ac.uk/~covam/,0,m.cova@cs.bham.ac.uk,1,1,0,,4,Alumni
 invernizzi.jpg,Luca,Invernizzi,,http://lucainvernizzi.net/,0,invernizzi@cs.ucsb.edu,1,1,0,,4,Alumni
-yan-bw.jpg,Yan,Shoshitaishvili,,http://www.cs.ucsb.edu/~yans,0,yans@cs.ucsb.edu,1,1,0,,4,Alumni
+yan_bw.png,Yan,Shoshitaishvili,,http://www.cs.ucsb.edu/~yans,0,yans@cs.ucsb.edu,1,1,0,,4,Alumni
 dhilung_kirat_bw.jpg,Dhilung,Kirat,,http://cs.ucsb.edu/~dhilung/,0,dhilung@cs.ucsb.edu,1,1,0,,4,Alumni
 felmetsger.jpg,Viktoria,Felmetsger,,http://cs.ucsb.edu/~rusvika/,0,rusvika@cs.ucsb.edu,1,1,0,,4,Alumni
 mutz.jpg,Darren,Mutz,,,0,dhm@cs.ucsb.edu,1,1,0,,4,Alumni
