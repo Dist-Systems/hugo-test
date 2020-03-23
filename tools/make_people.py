@@ -48,11 +48,11 @@ def main(ppl_file, template_filename, out_directory, archive_location):
                     print("\tNOT found")
 
             if(record["current"]):
-                sort_affiliation = "10" + record["rank"]
+                rank = record["rank_id"] + 10
             else:
-                sort_affiliation = "80" + record["rank"]
+                rank = record["rank_id"] + 60
 
-            record["rank_id"] = sort_affiliation
+            record["rank_id"] = str(rank) + record["rank"]
 
             with open("{}/{}.md".format(person_directory, "index"), "w+") as f:
                 f.write(template.render(record))
