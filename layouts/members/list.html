@@ -38,7 +38,7 @@
             {{ if .Params.featured_image }}
               {{ with .Resources.GetMatch (.Params.featured_image) }}
                 {{ $image := .Fill "200x200" }}
-                {{ $image := $image.Filter (images.Grayscale) (images.Brightness 10)}}
+                {{ $image := $image.Filter (images.Grayscale) (images.Brightness 5)}}
             <img src="{{ $image.Permalink }}" alt="no image">
               {{ else }}
             <img src="/img/alias.png" alt='img' width=200 height=200/>
@@ -47,7 +47,7 @@
             <div class="caption">
               {{ .Title }}
               <br/>
-	      ({{ .Params.affiliation }}
+	      {{ .Params.affiliation }}
 	    </div><!-- end caption -->
         </div><!-- end col --->
     {{- end }}
