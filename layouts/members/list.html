@@ -9,14 +9,15 @@
     <h3>{{ substr .Key 2 }}</h3>
     <div class="container">
     {{- range .Pages.ByParam "affiliation" }}
+    {{ $name := .Title }}
         <div class="col-md-3" style="text-align: center;">
             {{ if .Params.featured_image }}
               {{ with .Resources.GetMatch (.Params.featured_image) }}
                 {{ $image := .Fill "200x200" }}
                 {{ $image := $image.Filter (images.Grayscale)}}
-            <img src="{{ $image.Permalink }}" alt="no image">
+            <img class="img-circle" src="{{ $image.Permalink }}" alt="{{ $name }}">
               {{ else }}
-            <img src="/img/alias.png" alt='img' width=200 height=200/>
+            <img class="img-circle" src="/img/alias.png" alt='img' width=200 height=200/>
               {{ end }}
             {{ end }}
             <div class="caption">
@@ -34,14 +35,15 @@
   {{ $past := where .Pages "Params.current" 0 }}
     <div class="container">
     {{- range $past }}
+    {{ $name := .Title }}
         <div class="col-md-3" style="text-align: center;">
             {{ if .Params.featured_image }}
               {{ with .Resources.GetMatch (.Params.featured_image) }}
                 {{ $image := .Fill "200x200" }}
                 {{ $image := $image.Filter (images.Grayscale) (images.Brightness 5)}}
-            <img src="{{ $image.Permalink }}" alt="no image">
+		<img class="img-circle" src="{{ $image.Permalink }}" alt="{{ $name }}">
               {{ else }}
-            <img src="/img/alias.png" alt='img' width=200 height=200/>
+            <img class="img-circle" src="/img/alias.png" alt='img' width=200 height=200/>
               {{ end }}
             {{ end }}
             <div class="caption">
