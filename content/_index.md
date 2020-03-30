@@ -6,6 +6,8 @@ aliases:
   - /about/
 ---
 
+![banner](/images/campus_point.jpg)
+
 # About
 
 The Computer Security Group at UCSB works on tools and techniques for designing, building, and validating secure software systems. The group's research focus is on intrusion detection and correlation, vulnerability analysis, malware detection and containment, and security of web-based applications.

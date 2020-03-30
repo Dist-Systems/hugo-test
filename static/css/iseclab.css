@@ -6,6 +6,11 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
+/* Hack-ish way to add styling to markdown */
+img[alt=banner] {
+   width:100%;
+}
+
 body {
   margin: 0; }
 
