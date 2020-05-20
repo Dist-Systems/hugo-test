@@ -42,6 +42,8 @@ Adding a publication to the website could be as simple as adding to the:
  - **must** have the same name as string following the opening { on the first line (with a .pdf extension)
  - BibTeX for publications **must** be of a particular format (see below)
  - **make publications** does not throw an error if the bibtex is not processed correctly
+ - Running `make publications|less` will provide output about the processed publications.
+    - if you don't see your publication in the list, it was not processed
 
 The `make` command will generate the needed artifacts and the `hugo` command will generate the static website.
 `hugo serve` will spin up a local server to preview the website.
