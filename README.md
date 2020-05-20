@@ -37,10 +37,14 @@ There are 3 main ways to get started with this project:
 Adding a publication to the website could be as simple as adding to the: 
 **content/publications.bib** file.
 
-BibTeX for publications **must** be of a particular format.
+### if you would like to add a PDF
+ - it will need to be in the `content/files/publications/` directory
+ - **must** have the same name as string following the opening { on the first line (with a .pdf extension)
+ - BibTeX for publications **must** be of a particular format (see below)
+ - **make publications** does not throw an error if the bibtex is not processed correctly
 
-The process for this site was taken from the iseclab website, and modified.
-**make publications** does not throw an error.
+The `make` command will generate the needed artifacts and the `hugo` command will generate the static website.
+`hugo serve` will spin up a local server to preview the website.
 
 ## Example Publication BibTeX Entry
 
