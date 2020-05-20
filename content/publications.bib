@@ -1,5 +1,43 @@
 % Encoding: UTF-8
 
+@inproceedings{Spensky2020_Trust,
+  title     ={{TRUST.IO:} Protecting Physical Interfaces on Cyber-physical Systems},
+  author    ={Chad Spensky and Aravind Machiry and Marcel Busch and Kevin Leach and Rick Housley and Christopher Kruegel and Giovanni Vigna},
+  booktitle ={2020 IEEE Conference on Communications and Network Security (CNS) (IEEE CNS 2020)},
+  address="Avignon, France",
+  year      = {2020},
+  month     = {June},
+  organization={USENIX Association},
+  kind      = {conference},
+  timestamp = {2020-06-28},
+  paper     = {yes},
+  abstract  = {{Cyber-physical systems (CPSes) have been replacing their mechanical
+counterparts in many safety- and security- critical applications (e.g.,
+door locks, automobiles, and critical infrastructure). However, this
+paradigm shift has introduced a new software-based attack vector into these
+historically isolated systems. In many cases, the ultimate goal of the
+software on these devices is to simply control a general purpose
+input/output (GPIO) interface (i.e., turning something on or off) or read a
+sensor value (e.g., temperature, speed of a motor, or physical position).
+Interacting with these physical interfaces from software is typically as
+easy as reading from, or writing to memory. Since many of these devices are
+networked, their physical interfaces are vulnerable to both remote and
+local attackers.
+We present TRUST.IO, a framework that automatically, and transparently,
+hardens these physical interfaces against all software-based exploits. More
+precisely, TRUST.IO ensures that the software on the device cannot access
+any protected GPIO interfaces without the approval from a trusted external
+client. TRUST.IO leverages the fact that users rarely interact directly
+with these embedded devices. Instead, users interact with a remote system
+(e.g., a car key, smart hub, or control system) that ultimately issues
+commands to the single-purpose embedded device. Thus, TRUST.IO leverages
+modern embedded processor features to ensure that these critical physical
+interactions will be performed if and only if the command was issued by an
+authorized external device. We demonstrate that TRUST.IO can be easily
+applied to existing CPSes, both bare-metal and Linux-based, with minimal
+runtime overhead and minimal code modifications.}},
+}
+
 @article{gustafson2020_halucinator,
   title     = {HALucinator: Firmware Re-hosting through Abstraction Layer Emulation},
   author    = {Clements, Abraham and Gustafson, Eric and Scharnowski, Tobias and Grosen, Paul and Fritz, David and Kruegel, Christopher and Vigna, Giovanni and Bagchi, Saurabh and Payer, Mathias},
