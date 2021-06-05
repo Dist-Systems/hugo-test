@@ -54,3 +54,22 @@ jobs:
       - name: Install hugo
         run:
           wget -q https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz -O - | tar xz hugo
+
+      - name: Prepare worktree
+        run:
+          git worktree add --track -b gh-pages public origin/gh-pages
+
+      - name: Clear generated publications directory in case of deletions
+        run:
+          find public/publications -mindepth 1 -delete || true
+
+      - name: Generate website
+        run:
+          make generate
+
+      - name: Publish public
+        run: |
+          cd public
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          (git add --all . && git commit -m "Publish changes" -a && git push origin gh-pages) || true
