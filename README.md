@@ -1,4 +1,4 @@
-# Seclab Website
+# Test of Seclab Website on github with hugo
 
 This project utilizes the Hugo framework to generate a static website.
 
