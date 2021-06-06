@@ -1,4 +1,4 @@
-# Test of Seclab Website on github with hugo 
+# Test of Website on github with hugo 
 
 took the HUGO website from gitlab and tried to build it with githib actions...
 
