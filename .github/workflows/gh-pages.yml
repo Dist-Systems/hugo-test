@@ -65,7 +65,7 @@ jobs:
 
       - name: Generate website
         run:
-          make generate
+          make people
 
       - name: Publish public
         run: |
